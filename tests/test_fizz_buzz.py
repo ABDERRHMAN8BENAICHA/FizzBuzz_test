@@ -7,8 +7,14 @@ def test_fizz_buzz_3_returns_fizz():
 def test_fizz_buzz_5_returns_buzz():
     assert fizz_buzz(5) == "Buzz"
 
+def test_fizz_buzz_10_returns_buzz():
+    assert fizz_buzz(10) == "Buzz"
+
 def test_fizz_buzz_6_returns_fizz():
     assert fizz_buzz(6) == "Fizz"
+
+def test_fizz_buzz_9_returns_fizz():
+    assert fizz_buzz(9) == "Fizz"
 
 def test_fizz_buzz_0_returns_str_0():
     assert fizz_buzz(0) == "0"
