@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67666718-dd18-4427-93eb-6002b9cfe464" name="Changes" comment="passed test">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fizz_buzz.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/fizz_buzz.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_fizz_buzz.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_fizz_buzz.py" afterDir="false" />
-    </list>
+    <list default="true" id="67666718-dd18-4427-93eb-6002b9cfe464" name="Changes" comment="Refactoring" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -166,14 +162,38 @@
       <option name="project" value="LOCAL" />
       <updated>1762291878224</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="passed test">
+      <option name="closed" value="true" />
+      <created>1762292479745</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1762292479745</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Refactoring">
+      <option name="closed" value="true" />
+      <created>1762292613424</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1762292613424</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Refactoring">
+      <option name="closed" value="true" />
+      <created>1762292816304</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1762292816304</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Refactoring" />
     <MESSAGE value="failed test" />
     <MESSAGE value="passed test" />
-    <option name="LAST_COMMIT_MESSAGE" value="passed test" />
+    <MESSAGE value="Refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
