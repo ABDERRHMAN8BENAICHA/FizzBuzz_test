@@ -1,4 +1,4 @@
-def fizz_buzz(number):
+def fizz_buzz(number: int) -> str:
     result = ""
     if number == 0:
         return "0"
