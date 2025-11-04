@@ -1,17 +1,62 @@
 from src.fizz_buzz import fizz_buzz
 import pytest
 
-@pytest.mark.parametrize("number,expected_result",[
-    (0, "0"),
-    (1, "1"),
-    (2, "2"),
-    (3, "Fizz"),
-    (4, "4"),
-    (5, "Buzz"),
-    (6, "Fizz"),
-    (10, "Buzz"),
-    (15, "FizzBuzz"),
-    (30, "FizzBuzz"),
-])
-def test_fizz_buzz_number_returns_expected_result(number, expected_result):
+@pytest.mark.parametrize(
+    "number,expected_result",
+    [
+        (1, "1"),
+        (2, "2"),
+        (3, "Fizz"),
+        (4, "4"),
+        (5, "Buzz"),
+        (6, "Fizz"),
+        (7, "7"),
+        (8, "8"),
+        (9, "Fizz"),
+        (10, "Buzz"),
+        (11, "11"),
+        (12, "Fizz"),
+        (13, "13"),
+        (14, "14"),
+        (15, "FizzBuzz"),
+        (16, "16"),
+        (18, "Fizz"),
+        (20, "Buzz"),
+        (21, "Fizz"),
+        (25, "Buzz"),
+        (30, "FizzBuzz"),
+        (33, "Fizz"),
+        (35, "Buzz"),
+        (36, "Fizz"),
+        (40, "Buzz"),
+        (45, "FizzBuzz"),
+        (50, "Buzz"),
+        (60, "FizzBuzz"),
+        (90, "FizzBuzz"),
+        (99, "Fizz"),
+        (100, "Buzz"),
+
+        (300, "FizzBuzz"),
+        (303, "Fizz"),
+        (305, "Buzz"),
+        (315, "FizzBuzz"),
+        (1000, "Buzz"),
+        (1500, "FizzBuzz"),
+
+        (0, "FizzBuzz"),
+        (-1, "-1"),
+        (-2, "-2"),
+        (-3, "Fizz"),
+        (-4, "-4"),
+        (-5, "Buzz"),
+        (-6, "Fizz"),
+        (-10, "Buzz"),
+        (-15, "FizzBuzz"),
+        (-30, "FizzBuzz"),
+        (-33, "Fizz"),
+        (-35, "Buzz"),
+        (-45, "FizzBuzz"),
+    ]
+)
+def test_fizz_buzz(number: int, expected_result: str) -> None:
     assert fizz_buzz(number) == expected_result
