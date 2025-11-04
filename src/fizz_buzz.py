@@ -1,2 +1,2 @@
-def fizz_buzz():
+def fizz_buzz(number):
     pass
